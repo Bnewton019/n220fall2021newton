@@ -14,6 +14,8 @@ function draw () {
     ellipse(650, y, x, x);
     ellipse(750, y, x, x);
     fill(255, 204, 0);
+    strokeWeight(1.5);
+    stroke(255);
     arc(mouseX, 300, 200, 200, 0.47, 5.65);
     fill('blue');
      rect(0, 125, 800, 25);
