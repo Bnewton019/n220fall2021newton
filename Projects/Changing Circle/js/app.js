@@ -8,4 +8,7 @@ function setup() {
 function draw() {
     circle(400, 300, diameter)
     diameter = diameter + 1;
+    if(diameter > 200) {
+        diameter = 1;
+    }
 }
