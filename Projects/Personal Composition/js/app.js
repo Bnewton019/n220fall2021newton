@@ -20,6 +20,7 @@ function draw () {
     fill('blue');
      rect(0, 125, 800, 25);
      rect(0, 450, 800, 25);
+
     
    
 }
