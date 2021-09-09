@@ -7,4 +7,8 @@ function setup() {
 function draw() {
     xPos = xPos + 5;
     circle(xPos, 350, 100);
+    if (xPos > 799) {
+        xPos = 1
+    }
+    
 }
