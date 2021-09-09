@@ -5,6 +5,8 @@ function setup() {
 }
 
 function draw() {
+    background(252, 187, 27)
+    fill(0)
     xPos = xPos + 5;
     circle(xPos, 350, 100);
     if (xPos > 799) {
