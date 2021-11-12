@@ -1,17 +1,16 @@
 let inputNumber = document.getElementById("number");
 
-
+isDividedBy(parseInt(inputNumber), 7);
 
 function isDividedBy(number, a) {
-    if (number % a === 0) {
-        return true;
-    }
+     return (number % a === 0);
     
-    return (number % a === 0);
 
     
 }
 
 function updateInfo() {
-    document.write(isDividedBy(inputNumber, 7));
+    document.write(isDividedBy(parseInt(inputNumber) , 7));
 }
+
+console.log(isDividedBy(7, 7));
